@@ -1,5 +1,7 @@
-body, h1 {
+body, h1, h2, h3, h4, p, a {
     margin: 0;
+    font-size: 100%; 
+    font-weight: normal;
 }
 /* Профессиональные разработчики убирают начальные настройки, чтобы контролировать отступы и размеры */
 
@@ -13,6 +15,8 @@ h1 {
     /* Переводит текст в верхний регистр */
     margin-top: 10px;
     padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
     letter-spacing: 10px;
     /* отступ между буквами */
 }
