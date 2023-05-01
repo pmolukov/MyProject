@@ -1,3 +1,8 @@
+body, h1 {
+    margin: 0;
+}
+/* Профессиональные разработчики убирают начальные настройки, чтобы контролировать отступы и размеры */
+
 button {
     background-color: black;
     color: white;
@@ -5,8 +10,11 @@ button {
 
 h1 {
     text-transform: uppercase;
-    margin-top: 0;
+    /* Переводит текст в верхний регистр */
+    margin-top: 10px;
     padding-top: 20px;
+    letter-spacing: 10px;
+    /* отступ между буквами */
 }
 
 img {
@@ -18,5 +26,17 @@ div {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     width: 500px;
     margin: auto;
+    /* Браузер сам выбирает отступы */
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+/* Убирает стандартное подчеркивание у ссылок */ 
+
+p {
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
 }
